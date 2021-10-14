@@ -21,6 +21,21 @@
 	<link rel="stylesheet" href="sass/main.css">
 </head>
 <body>
+	
+	<style>
+	body {
+            position: relative;
+        }
+
+        body:before {
+            content: url(./assets/img/flag.png);
+            display: block;
+            position: fixed;
+            top: 52px;
+            left: 0;
+            z-index: 999999;  
+        }
+	</style>
 
 	
 <audio src="mp3/play.mp3" autoplay></audio>
@@ -29,7 +44,7 @@
 	<div class="counter">
 		<div class="counter-wrapper">
 			<strong>Кол-во</strong>
-			<span>19821</span>
+			<span>21427</span>
 		</div>
 	</div>
 
